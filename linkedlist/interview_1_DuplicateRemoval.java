@@ -32,6 +32,22 @@ public class LinkedListDuplicateRemoval {
     }
     return head;
   }
+ 
+ public static LinkedListNode linkedListDuplicateRemoval(LinkedListNode head) {
+  if(head == null || head.next == null) return head;
+  Set set = new HashSet();
+  set.add(head.val);
+  LinkedListNode prev = head; curr = head.next;
+  while(curr != null){
+   if(set.add(curr.val) == false){
+     prev.next = curr.next;
+   }else{
+     prev = curr;
+   }
+   curr = curr.next;
+  }
+  return head;
+ }
   
   // time complexity: O(n^2)
   // space complexity: O(1)
