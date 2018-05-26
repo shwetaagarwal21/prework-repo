@@ -1,0 +1,15 @@
+/*
+Find the First Repeated Word in a Sentence
+*/
+    // Complete the firstRepeatedWord function below.
+    static String firstRepeatedWord(String s) {
+        StringTokenizer str = new StringTokenizer(s, " ");
+		Set<String> set = new HashSet<>();
+		while(str.hasMoreTokens()) {
+			String s1 = str.nextToken();
+			if(set.add(s1) == false)
+				return s1;
+		}
+		return null;
+    }
+    
