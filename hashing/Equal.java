@@ -42,12 +42,37 @@ public class Equal {
                     list.add(i);
                     list.add(j);
                     map.put(sum, list);
-                    //if((list.get(0)<list.get(2)) && (list.get(1)<list.get(2)) && (list.get(1)!=list.get(3)) && (list.get(1)!=list.get(2)))
-                        return list;
                 }
             }
         }
         
-        return null;
+        //System.out.println("map.size() :::: " + map.size());
+        List<String> listString = new ArrayList<>();
+        for(Map.Entry<Integer, ArrayList<Integer>> entry : map.entrySet()) {
+        	ArrayList<Integer> ll = entry.getValue();
+        	//listString = new ArrayList<>();
+        	if(ll.size() >= 4) {
+	        	StringBuffer sb = new StringBuffer();
+	        	for(Integer x : ll) {
+	        		sb.append(x);
+	        	}
+	        	//System.out.println("sb.toString():::: " + sb.toString());
+	        	listString.add(sb.toString());
+        	}
+        }
+        
+        String ss = listString.stream().min(Comparator.comparing(String::valueOf)).get();
+        //System.out.println("ss is ::: " + ss);
+        
+        char[] cc = ss.toCharArray();
+        int count = 0;
+        for(char c : cc) {
+        	if(count < 4) {
+        		result.add(new Integer(String.valueOf(c)));
+        		count++;
+        	}
+        }
+        
+        return result;
     }
 }
