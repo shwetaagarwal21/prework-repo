@@ -31,3 +31,27 @@
     }
     
     
+-----------------------------
+   
+   static int longestSubsequence(String x, String y) {
+      HashSet<String> set = new HashSet<>();
+      //find all subsequences of string x
+      subsequences(x, "", set);
+      int max = 0;
+      for(String sub: set){
+       if(y.contains(sub))
+           max = Math.max(max, sub.length());
+      }
+      return max;
+    }
+
+    static void subsequences(String str, String output, HashSet<String> set){
+        if(str.length() == 0) {
+    		set.add(output);
+    		return;
+    	}
+        subsequences(str.substring(1), output, set);
+    	
+    	subsequences(str.substring(1), output + str.charAt(0), set);
+        return;
+    }
