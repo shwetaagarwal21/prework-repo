@@ -30,3 +30,7 @@ https://leetcode.com/problems/kth-smallest-element-in-a-sorted-matrix/discuss/85
 
 https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/152841/Seven-Approaches-to-crack-this-problem!
 
+https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm
+
+
+
