@@ -36,5 +36,6 @@ https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-f
 
 https://leetcode.com/problems/subsets/discuss/27281/A-general-approach-to-backtracking-questions-in-Java-(Subsets-Permutations-Combination-Sum-Palindrome-Partitioning)
 
+https://leetcode.com/problems/accounts-merge/discuss/109162/Summary-for-DFS-Templates
 
 
