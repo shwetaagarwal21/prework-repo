@@ -32,5 +32,7 @@ https://leetcode.com/problems/kth-largest-element-in-an-array/discuss/152841/Sev
 
 https://leetcode.com/problems/find-k-th-smallest-pair-distance/discuss/109082/Approach-the-problem-using-the-%22trial-and-error%22-algorithm
 
+https://leetcode.com/problems/best-time-to-buy-and-sell-stock-with-transaction-fee/discuss/108870/most-consistent-ways-of-dealing-with-the-series-of-stock-problems
+
 
 
