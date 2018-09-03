@@ -38,4 +38,6 @@ https://leetcode.com/problems/subsets/discuss/27281/A-general-approach-to-backtr
 
 https://leetcode.com/problems/accounts-merge/discuss/109162/Summary-for-DFS-Templates
 
+https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently
+
 
