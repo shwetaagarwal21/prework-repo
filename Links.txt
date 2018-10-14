@@ -40,4 +40,6 @@ https://leetcode.com/problems/accounts-merge/discuss/109162/Summary-for-DFS-Temp
 
 https://leetcode.com/problems/sum-of-two-integers/discuss/84278/A-summary:-how-to-use-bit-manipulation-to-solve-problems-easily-and-efficiently
 
+http://www.catonmat.net/blog/low-level-bit-hacks-you-absolutely-must-know/
+
 
